@@ -102,4 +102,4 @@ M <- run.jags(model = "src/dcom.R",
 
 ### 4. SAVE OUTPUT ---------------------------------------------------------------
 
-saveRDS(M, "outputs/M_wtreat.rds")
+saveRDS(M, "outputs/M.rds")
