@@ -22,7 +22,7 @@ quantiles <- c(0.05,0.25,0.50,0.75 ,0.95)
 ### LOAD MODEL ###
 
 model.path <- "outputs/"
-model.filename <- "M_final.rds"
+model.filename <- "M.rds"
 
 Mod <- readRDS(paste0(model.path, "/", model.filename))
 
